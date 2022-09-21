@@ -1,8 +1,9 @@
 html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
+
 /* body {
   background-color: #073b4c;
   background: -moz-linear-gradient(top, #ffffff 0%, #edf6ff 200%);
@@ -13,10 +14,10 @@ html {
   height: 305px;
   width: 100%;
 } */
-
 p {
-  font-family: 'Karla', sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 h1 {
@@ -25,11 +26,17 @@ h1 {
   font-weight: 800;
   color:
 }
+
 h2 {
   font-family: 'Karla', sans-serif;
   font-style: italic;
   font-weight: 400;
   color: #d4a373;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size:20px;
 }
 
 .topnav {
@@ -40,40 +47,46 @@ h2 {
 .topnav a {
   float: left;
   display: block;
+  margin-left: 25px;
   color: #black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: 'Syncopate', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
   font-size: 20px;
 }
 
 .topnav a:hover {
   background-color: #04BF55;
-  color: #ffafcc;
+  color: #EEE7DF;
 }
 
 .myDiv {
-border: 1px outset #e9edc9 inset #e9edc9;
-background-color: #EEE7DF;
-text-align: center;
-font-family: 'Karla', sans-serif;
-font-size: 45px;
-font-style: italic;
-font-weight: 600;
-color: #118ab2;
+  border: 1px outset #e9edc9 inset #e9edc9;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: 600;
+  color: #118ab2;
+}
+
+.banner {
+  margin-right: 1000px;
 }
 
 * {
   padding: 0;
   margin: 0;
-  font-family: impact, sans-serif;
-  background: #EEE7DF;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  background: black;
   color: #B0988E;
 }
 
 img {
-vertical-align: middle;
+  vertical-align: middle;
 }
 
 .gallery {
@@ -91,9 +104,10 @@ vertical-align: middle;
   margin: 0 2%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
   line-height: 0;
+  font-style: italic;
 }
 
-.box > img {
+.box>img {
   width: 200%;
   height: calc(100% - 10vh);
   -o-object-fit: cover;
@@ -101,7 +115,7 @@ vertical-align: middle;
   transition: 0.5s;
 }
 
-.box > span {
+.box>span {
   font-size: 3.8vh;
   display: block;
   text-align: center;
@@ -113,7 +127,20 @@ vertical-align: middle;
   flex: 1 1 50%;
 }
 
-.box:hover > img {
+.box:hover>img {
   width: 100%;
   height: 100%;
+}
+.main {
+  margin-top:50px;
+display: block;
+/* box-sizing: border-box; */
+}
+
+.profile{
+display: block;
+position: relative;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 50px;
 }
