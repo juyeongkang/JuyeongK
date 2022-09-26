@@ -217,15 +217,15 @@ margin-top: 50px;
   letter-spacing: 5px;
   cursor: pointer;
 }
-::-webkit-input-placeholde{
+::-webkit-input-placerholder{
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
 }
-::-moz-input-placeholde{
+::-moz-input-placeholder{
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
 }
-::-ms-input-placeholde{
+::-ms-input-placeholder{
     font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
 }
