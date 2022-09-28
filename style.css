@@ -20,6 +20,10 @@ p {
   font-size: 18px;
 }
 
+i{
+  font-size: 35px;
+}
+
 h1 {
   margin-top: 50px;
   font-family: 'Karla', sans-serif;
@@ -135,6 +139,24 @@ img {
   margin-top:50px;
 display: block;
 /* box-sizing: border-box; */
+}
+
+#homegif{
+  margin-top:50px;
+display: block;
+}
+
+#center{
+  margin: 10px;
+  margin-left: 534px;
+  padding: 10px;
+}
+
+.descriptionspacing{
+  line-height: 27px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
 }
 
 .profile{
