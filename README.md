@@ -1,1 +1,2 @@
-# Project-1-Prep-2
+# Digital Media Artist KANG JU YEONG
+Portfolio Website
