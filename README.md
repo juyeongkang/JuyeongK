@@ -1,2 +1,2 @@
-# Digital Media Artist KANG JU YEONG
+# Digital Media Artist KANG JUYEONG
 Portfolio Website
